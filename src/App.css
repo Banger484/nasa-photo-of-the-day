@@ -33,17 +33,24 @@
   width: 50%;
   height: 25%;
   border: 1px solid grey;
-  margin: auto;
-  padding: 2%;
+  margin: 1% auto;
+  padding: 4%;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  border-radius: 15%;
+  border-radius: 50%;
   background-color: thistle;
+  
 }
 .copyright {
   font-weight: bolder;
   font-size: 2rem;
+}
+.cardInfo p {
+  max-width: 60%;
+  margin: 1% auto;
+  font-size: 1rem;
+  padding: 4%;
 }
 .cardImg {
   max-width: 70%;

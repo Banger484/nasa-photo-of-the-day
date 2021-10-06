@@ -28,7 +28,6 @@ return (
         { cardData && ( <><CardImg copyright={cardData.copyright} cardImg={cardData.url} />
             <div className='cardInfo'>
             <CardInfo cardDate={cardData.date} cardInfo={cardData.explanation}cardTitle={cardData.title}/>
-            <p>{cardData.date}</p>
             
 
         </div></>)}
