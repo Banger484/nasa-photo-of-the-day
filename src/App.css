@@ -27,7 +27,28 @@
 .App-link {
   color: #61dafb;
 }
-
+.card {
+  display: flex;
+  width: 25%;
+  height: 25%;
+  border: 1px solid grey;
+  margin: 10%;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border-radius: 15%;
+  background-color: thistle;
+}
+.copyright {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.cardImg {
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 50%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
